@@ -87,10 +87,10 @@ layout: page
 			data-tags="{% for tag in recipe_tags %}{{ tag | downcase }}{% unless forloop.last %}|{% endunless %}{% endfor %}"
 		>
 			<a href="{{ recipe.url }}" class="text-decoration-none">
-				<div class="card h-100 recipe-card">
+				<div class="card h-80 recipe-card">
 					<img src="{{ recipe.thumbnail }}" class="card-img-top" alt="{{ recipe.title }}">
-					<div class="card-body d-flex flex-column gap-3">
-						<h3 class="h5 card-title mb-2">{{ recipe.title }}</h3>
+					<div class="card-body">
+						{{ recipe.title }}
 					</div>
 				</div>
 			</a>

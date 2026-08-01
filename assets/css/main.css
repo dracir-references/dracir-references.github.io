@@ -13,7 +13,9 @@ color: #e0e0db;
 }
 
 .card-body {
+color: #e0e0db;
 background-color: #1a1819;
+padding : 0.5rem 1rem;
 }
 
 .catalog-panel {
