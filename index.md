@@ -11,7 +11,6 @@ layout: page
 <section class="recipe-catalog" data-recipe-catalog>
 	<div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-3">
 		<div class="d-flex align-items-center gap-2">
-			<a href="{{ '/swipe/' | relative_url }}" class="btn btn-primary btn-sm">Swipe picker</a>
 			<button
 				type="button"
 				class="btn btn-outline-secondary btn-sm"
@@ -91,9 +90,7 @@ layout: page
 				<div class="card h-100 recipe-card">
 					<img src="{{ recipe.thumbnail }}" class="card-img-top" alt="{{ recipe.title }}">
 					<div class="card-body d-flex flex-column gap-3">
-						<div>
-							<h3 class="h5 card-title mb-2">{{ recipe.title }}</h3>
-						</div>
+						<h3 class="h5 card-title mb-2">{{ recipe.title }}</h3>
 					</div>
 				</div>
 			</a>
