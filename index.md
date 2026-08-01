@@ -81,7 +81,7 @@ layout: page
 		{% for recipe in recipes %}
 		{% assign recipe_tags = recipe.recipe-tags | default: empty %}
 		<div
-			class="col-2"
+			class="col-sm-2 col-4"
 			data-recipe-card
 			data-type="{{ recipe.recipe-type | downcase }}"
 			data-tags="{% for tag in recipe_tags %}{{ tag | downcase }}{% unless forloop.last %}|{% endunless %}{% endfor %}"
