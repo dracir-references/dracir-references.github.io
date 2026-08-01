@@ -77,11 +77,11 @@ layout: page
 		</div>
 	</div>
 
-	<div class="row mb-3 g-3 recipes-div" data-recipe-grid>
+	<div class="row mb-1 g-1 recipes-div" data-recipe-grid>
 		{% for recipe in recipes %}
 		{% assign recipe_tags = recipe.recipe-tags | default: empty %}
 		<div
-			class="col-3"
+			class="col-2"
 			data-recipe-card
 			data-type="{{ recipe.recipe-type | downcase }}"
 			data-tags="{% for tag in recipe_tags %}{{ tag | downcase }}{% unless forloop.last %}|{% endunless %}{% endfor %}"
