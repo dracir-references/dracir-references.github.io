@@ -1,6 +1,6 @@
 ---
-tags: pixel-art, pixel-art, pixel, art, food, fruit
-artist: Bamboobeboo
+tags: pixel-art, art, food, meal, item
+artist: 
 thumbnail: /assets/images/Sushi-01.jpg
 title : Sushi
 ---

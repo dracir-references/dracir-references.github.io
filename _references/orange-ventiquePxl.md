@@ -1,6 +1,6 @@
 ---
-tags: pixel-art, pixel-art, pixel, art, food, fruit
-artist: Bamboobeboo
+tags: pixel-art, art, food, fruit
+artist: ventiquePxl
 thumbnail: /assets/images/orange-ventiquePxl.png
-title : orange
+title : Orange
 ---

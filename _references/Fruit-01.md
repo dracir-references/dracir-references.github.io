@@ -1,6 +1,6 @@
 ---
-tags: pixel-art, pixel-art, pixel, art, food, fruit
-artist: Bamboobeboo
-thumbnail: /assets/images/Fruit-01.png
+tags: pixel-art, art, food, fruit
+artist: 
+thumbnail: /assets/images/Fruit-01.webp
 title : Fruit-01
 ---
